@@ -1,0 +1,47 @@
+/* Write your CSS here */
+
+.app-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  display: flex;
+  min-height: 350px;
+  min-width: 350px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.countingNumber {
+  color: #0f172a;
+  font-size: 35px;
+  font-family: 'Roboto';
+}
+
+.number-type {
+  color: #334155;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+
+.button {
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-weight: 500;
+  border: none;
+}
+
+.number-range-text {
+  color: #1e293b;
+  font-size: 12px;
+  font-weight: 500;
+}
